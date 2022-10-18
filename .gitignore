@@ -1,0 +1,28 @@
+# v2022-08-27 [rivy]
+
+# NOTE: Git GLOBSTAR syntax [see `git help gitignore`]
+# * ref: [.gitignore] http://git-scm.com/docs/gitignore @@ http://archive.is/Rk6rO
+# * ref: [Generate gitignore's](https://gitignore.io) ; eg, <https://gitignore.io/api/node>
+
+# ignore intermediate/undistributed build artifacts
+build
+[._@#$]build
+dist-newstyle
+target
+
+# ignore coverage data
+coverage
+[._@#$]coverage
+.nyc_output
+
+# ignore JS import/package-related files
+node_modules
+package-lock.json
+yarn.lock
+
+# ignore local-only VSCode artifacts
+# * logs/settings
+.vscode/c_cpp_properties.json
+.vscode/makefile.extension.output
+# * precompiled headers for IntelliSense
+.vscode/ipch/

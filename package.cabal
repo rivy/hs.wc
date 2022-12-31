@@ -85,7 +85,7 @@ executable wc
   build-depends:    bytestring
 
   -- Directories containing source files.
-  hs-source-dirs:   app src
+  hs-source-dirs:   src/app src/lib
 
   -- Base language which the package is written in.
   default-language: GHC2021
